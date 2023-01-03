@@ -1,0 +1,11 @@
+package JavaPratice;
+import java.util.*;
+public class Scanexample {
+		
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

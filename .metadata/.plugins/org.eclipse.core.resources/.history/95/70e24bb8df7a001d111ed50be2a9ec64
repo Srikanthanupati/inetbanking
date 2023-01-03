@@ -1,0 +1,16 @@
+package JavaPratice;
+import java.util.*;
+public class Scanexample {
+		
+
+	public static void main(String[] args) {
+		System.out.println("please enter a and b values");
+	
+		int a = 10;
+		int b= 20;
+		System.out.println(a+b);
+	
+
+	}
+
+}

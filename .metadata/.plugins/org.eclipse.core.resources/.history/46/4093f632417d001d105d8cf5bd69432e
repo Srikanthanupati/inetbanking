@@ -1,0 +1,17 @@
+package JavaPratice;
+import java.util.*;
+public class Arraysort {
+
+	public static void main(String[] args) 
+	{
+		
+		int[] a = {2,5,8,9,4,6,5};
+		int[] b;
+		
+		b.sort(a);
+		
+		System.out.print(b);
+		
+	}
+
+}

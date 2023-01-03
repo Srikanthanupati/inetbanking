@@ -1,0 +1,20 @@
+package JavaPratice;
+import java.util.*;
+public class Scanexample {
+		
+
+	public static void main(String[] args) {
+		System.out.println("please enter a and b values");
+	Scanner sc = new Scanner(System.in);
+	
+	
+	
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.println(a+b);
+	
+
+	}
+
+}
