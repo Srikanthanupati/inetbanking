@@ -1,0 +1,25 @@
+package JavaPratice;
+
+import java.util.HashSet;
+
+public class DuplicateCount {
+
+	public static void main(String[] args) {
+		int a[] = {1,1,1,1,2,3,4,5};
+		HashSet<Integer> ab = new HashSet<Integer>();
+		HashSet<Integer> abc = new HashSet<Integer>();
+		for (int i = 0; i < a.length; i++)
+		{
+			if(ab.add(a[i])==true)
+			{
+				ab.add(a[i]);
+			}else
+			{
+				abc.add(a[i]);
+			}
+		}System.out.println(ab.size());
+		System.out.println(abc.size());
+
+	}
+
+}

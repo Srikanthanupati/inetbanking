@@ -1,0 +1,29 @@
+package JavaPratice;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String a="Welcomel";
+		HashSet ab=new HashSet();
+		
+		for(int i=0;i<a.length()-1;i++)
+		{
+			for(int j=1;j<a.length();j++)
+			{
+				if(a.charAt(i)==a.charAt(j))
+						{
+					System.out.println(a.charAt(i));
+						}
+				{
+				
+			}
+		}
+		
+		
+
+	}
+	}
+}

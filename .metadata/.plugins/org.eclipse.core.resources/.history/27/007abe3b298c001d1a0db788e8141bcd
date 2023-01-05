@@ -1,0 +1,27 @@
+package JavaPratice;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String a="Welcomel";
+		String dups="";
+		HashSet ab=new HashSet();
+		ArrayList abc=new ArrayList();
+		
+		for(int i=0;i<a.length();i++)
+		{
+				if(ab.add(a.charAt(i))==true)
+				{
+					ab.add(a.charAt(i));
+				}
+				else
+				{
+					abc.add(a.charAt(i));	
+				}
+		
+		}System.out.println(abc.get(0));
+	}
+}

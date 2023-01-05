@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Soujanya Pratice"/>
+			<item value="E:\Soujanya"/>
+			<item value="C:\Users\91994\eclipse-workspace\Soujanya"/>
+			<item value="C:\Users\91994\eclipse-workspace\CucumberJavaSelenium"/>
 			<item value="C:\Users\91994\eclipse-workspace\CucumberJavaSelenium\src\main\java\JavaPratice\Primenum.java"/>
 			<item value="E:\Srikanth"/>
 		</list>
@@ -15,7 +19,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="defaultLocal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -46,12 +50,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="InetbankingHYB"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="InetbankingHYB"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
